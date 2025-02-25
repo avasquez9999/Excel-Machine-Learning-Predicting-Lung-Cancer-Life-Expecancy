@@ -6,7 +6,7 @@ This project aimed to predict lung cancer mortality rates across U.S. counties u
 The initial dataset contained 3,047 observations and 29 variables. The cleaning process involved:
 
 Handling Missing Values – No missing values were present, so no imputation was needed.
-Removing Outliers – Instead of using strict statistical definitions, a holisticapproach was applied for certain variables:
+Removing Outliers – Instead of using strict statistical definitions, a holistic approach was applied for certain variables:
 Percentages exceeding a threshold, or removed to values that would skew distribution (e.g., Age can not exceed 110,).
 Scatterplots were used to visually identify and remove unreasonable outliers.
 Checking for Collinearity – A correlation matrix was used to detect multicollinearity:
@@ -38,15 +38,17 @@ Three data mining techniques were applied:
 
 Multiple Linear Regression (Best Model: Stepwise Selection)
 
-R² = 0.48 (Explains 48% of variance in mortality).
+R² = 0.48 (Explains 48% of the variance in mortality).
 RMSE = 19.05, MSE = 363.04 (Lowest error among models).
 Variables with p > 0.10 were excluded to ensure only statistically significant predictors were retained.
+
 K-Nearest Neighbors (kNN)
 
 Best K = 10, selected based on the lowest RMSE.
 Regression Tree (CART)
 
-Best Model: Minimum Error Tree, chosen based on MSE.
+Regression Tree: Minimum Error Tree chosen based on MSE rather, but fails to perform better than the linear regression model based on rmse.
+
 # Conclusion
 The analysis confirmed that socioeconomic factors significantly influence lung cancer mortality. The stepwise regression model performed the best, explaining 48% of the variance while minimizing prediction error. The strongest predictors—such as incidence rate, education level, and health coverage—were statistically significant (p < 0.10), reinforcing their importance in predicting lung cancer outcomes. These findings align with existing research, emphasizing the role of socioeconomic disparities in healthcare access and cancer mortality.
 
