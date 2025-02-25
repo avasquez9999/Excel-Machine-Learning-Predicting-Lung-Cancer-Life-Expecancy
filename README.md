@@ -18,12 +18,19 @@ Final Dataset – After cleaning, the dataset was reduced to 2,549 observations 
 The most influential variables in predicting lung cancer mortality were selected based on p-values (statistical significance), with a threshold of p < 0.10. These included:
 
 Higher Incidence Rate (p < 0.001) – The most significant predictor, confirming that regions with a higher lung cancer incidence also experience higher mortality.
+
 Lower Education Levels (p = 0.002) – A lower percentage of residents with a bachelor’s degree was strongly associated with increased lung cancer deaths.
+
 Lack of Health Coverage (p = 0.008) – Counties with a higher percentage of uninsured individuals had significantly higher mortality rates.
+
 Older Age Population (p = 0.015) – A higher median age was positively correlated with lung cancer deaths, as expected due to increased cancer risk with age.
+
 Higher Unemployment Rate (p = 0.034) – Unemployment was linked to higher mortality, possibly due to healthcare inaccessibility and stress-related smoking habits.
+
 Higher Poverty Rate (p = 0.042) – Counties with a higher percentage of people living in poverty had increased lung cancer deaths, reinforcing the connection between low socioeconomic status and poor health outcomes.
+
 Race & Ethnicity (p = 0.089) – Non-Hispanic Black populations had higher mortality rates than White and Hispanic populations, aligning with research on healthcare disparities.
+
 These variables were included in the final regression model due to their statistical significance in explaining lung cancer mortality rates.
 
 # Modeling Error AND Accuracy
