@@ -52,4 +52,3 @@ Regression Tree: Minimum Error Tree chosen based on MSE rather, but fails to per
 # Conclusion
 The analysis confirmed that socioeconomic factors significantly influence lung cancer mortality. The stepwise regression model performed the best, explaining 48% of the variance while minimizing prediction error. The strongest predictors—such as incidence rate, education level, and health coverage—were statistically significant (p < 0.10), reinforcing their importance in predicting lung cancer outcomes. These findings align with existing research, emphasizing the role of socioeconomic disparities in healthcare access and cancer mortality.
 
-Would you like any further refinements?# Excel-Machine-Learning-Predicting-Lung-Cancer-Life-Expecancy
